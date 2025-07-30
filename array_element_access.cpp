@@ -14,7 +14,7 @@ int main(){
     bool found;
     for(int i=0; i<5; i++){
         if(arr[i] == element){
-            cout<<"Element found at index: "<<i+1<<endl;
+            cout<<"Element found at position: "<<i+1<<endl;
             found = true;
             break;
         }
@@ -32,5 +32,5 @@ int main(){
 /* OUTPUT
 Enter 5 elements:10 20 30 40 50
 Enter element to be accessed: 40
-Element found at index: 4
+Element found at position: 4
 */
